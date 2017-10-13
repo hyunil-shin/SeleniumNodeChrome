@@ -1,0 +1,22 @@
+# SeleniumNodeChrome
+Docker for Selenium node Chrome
+
+Selenium Docker
+https://hub.docker.com/r/selenium/node-chrome/
+
+
+## How to use
+### Precondition
+1. Install Docker
+
+### Hub
+1. execute run_hub.sh (can change hub port, default: 7711)
+
+### Chrome Node 
+1. build_image.sh (creates a image)
+2. modify configurations in run_chrome_node.sh 
+3. execute run_chrome_node.sh
+ 
+You can run Chrome node in several machines.
+You can run multiple Chrome node in the same host, with different port.
+ 
