@@ -1,4 +1,4 @@
-FROM selenium/node-chrome:latest
+FROM selenium/node-chrome:3.11.0
 # https://github.com/SeleniumHQ/docker-selenium
 MAINTAINER hyunil.shin <hyunil.shin@nhnent.com>
 
