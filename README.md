@@ -2,7 +2,8 @@
 Docker for Selenium node Chrome
 
 Selenium Docker
-https://hub.docker.com/r/selenium/node-chrome/
+* https://hub.docker.com/r/selenium/node-chrome/
+* https://github.com/SeleniumHQ/docker-selenium
 
 
 ## How to use
