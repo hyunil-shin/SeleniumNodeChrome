@@ -24,5 +24,5 @@ docker stop $CONTAINER_NAME
 docker rm $CONTAINER_NAME
 
 # run chrome node
-docker run -d -p $NODE_PORT:$NODE_PORT -e NODE_PORT=$NODE_PORT -e SE_OPTS="-host $NODE_IP -port $NODE_PORT" -e NODE_MAX_INSTANCES=$NUM_OF_EXECUTORS -e NODE_MAX_SESSION=$NUM_OF_EXECUTORS --name=$CONTAINER_NAME -e HUB_PORT_4444_TCP_ADDR=$HUB_IP -e HUB_PORT_4444_TCP_PORT=$HUB_PORT  -v /dev/shm:/dev/shm hyunilshin/nodechrome
+docker run -d -p $NODE_PORT:$NODE_PORT  -e NODE_MAX_INSTANCES=$NUM_OF_EXECUTORS -e NODE_MAX_SESSION=$NUM_OF_EXECUTORS --name=$CONTAINER_NAME -e HUB_HOST=$HUB_IP -e HUB_PORT=$HUB_PORT  -v /dev/shm:/dev/shm hyunilshin/nodechrome
 
