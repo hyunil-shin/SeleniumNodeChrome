@@ -1,4 +1,4 @@
-FROM selenium/node-chrome:3.141.59-radium
+FROM selenium/node-chrome:3.141.59-vanadium
 # https://github.com/SeleniumHQ/docker-selenium
 MAINTAINER hyunil.shin <hyunil.shin@nhnent.com>
 

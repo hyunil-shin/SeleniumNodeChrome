@@ -1,4 +1,4 @@
 #!/bin/bash
 
 # --no-cache
-docker build -t hyunilshin/nodechrome:3.141.59 .
+docker build -t anyonecantest/nodechrome:3.141.59-vanadium .
