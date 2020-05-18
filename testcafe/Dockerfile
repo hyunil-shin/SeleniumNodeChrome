@@ -1,4 +1,4 @@
-FROM anyonecantest/nodechrome:3.141.59-vanadium
+FROM anyonecantest/nodechrome:3.141.59-20200515
 MAINTAINER hyunil.shin <hyunil.shin@nhn.com>
 
 USER root
